@@ -12,7 +12,7 @@ info:
     email: akoleti@med.miami.edu
     x-id: 'http://lincsportal.ccs.miami.edu//'
 servers:
-  - url: 'http://lincsportal.ccs.miami.edu/api/'
+  - url: 'http://lincsportal.ccs.miami.edu/apis/'
     description: Production server
 paths:
   /fetchmolecules:
