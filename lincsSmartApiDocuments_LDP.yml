@@ -7,7 +7,7 @@ info:
     Data Portal](http://lincsportal.ccs.miami.edu/dcic-portal/)
   termsOfService: 'http://lincsportal.ccs.miami.edu/dcic-portal/#/terms'
   contact:
-    name: BD2K-LINCS DCIC
+    name: UM BD2K-LINCS DCIC
     x-role: responsible organization
     email: akoleti@med.miami.edu
     x-id: 'http://lincsportal.ccs.miami.edu//'
