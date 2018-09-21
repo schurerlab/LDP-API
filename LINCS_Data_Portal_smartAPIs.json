@@ -18,9 +18,41 @@
       "description": "Production server"
     }
   ],
+  "tags": [
+    {
+      "name": "small molecule"
+    },
+    {
+      "name": "query"
+    },
+    {
+      "name": "cells"
+    },
+    {
+      "name": "gene"
+    },
+    {
+      "name": "diseases"
+    },
+    {
+      "name": "LINCS"
+    },
+    {
+      "name": "SchuererLab"
+    },
+    {
+      "name": "signature"
+    }
+  ],
   "paths": {
     "/fetchmolecules": {
       "get": {
+        "tags": [
+          "small molecule",
+          "query",
+          "LINCS",
+          "SchuererLab"
+        ],
         "summary": "Get LINCS small molecule records, which contain both LINCS-based and general metadata about the small molecules tested in the NIH LINCS program. Parameter 'searchTerm' allows querying by specific metadata fields within small molecule records.",
         "parameters": [
           {
@@ -60,6 +92,13 @@
     },
     "/fetchcells": {
       "get": {
+        "tags": [
+          "diseases",
+          "cells",
+          "query",
+          "LINCS",
+          "SchuererLab"
+        ],
         "summary": "Get LINCS cell lines records, which contain both LINCS-based and general metadata about the cell lines tested in the NIH LINCS program. Parameter 'searchTerm' allows querying by specific metadata fields within the cell line records.",
         "parameters": [
           {
@@ -99,6 +138,12 @@
     },
     "/fetchdata": {
       "get": {
+        "tags": [
+          "signature",
+          "query",
+          "LINCS",
+          "SchuererLab"
+        ],
         "summary": "Get metadata for LINCS assay data sets (DOES NOT RETURN ASSAY ENDPOINT DATA). Parameter 'searchTerm' allows querying by specific metadata fields within the assay metadata records.",
         "parameters": [
           {
@@ -138,6 +183,12 @@
     },
     "/mechanismOfAction": {
       "get": {
+        "tags": [
+          "query",
+          "LINCS",
+          "SchuererLab",
+          "small molecule"
+        ],
         "summary": "Get known mechanisms of action for LINCS small molecules.",
         "parameters": [
           {
@@ -186,6 +237,13 @@
     },
     "/bioactivity": {
       "get": {
+        "tags": [
+          "signature",
+          "query",
+          "LINCS",
+          "SchuererLab",
+          "small molecule"
+        ],
         "summary": "Get known bioactivities for LINCS small molecules, these data are aggregated values resourced from the ChEMBL ver 23 database <https://www.ebi.ac.uk/chembl/>. The ChEMBL values were mined from numerous sources.",
         "parameters": [
           {
@@ -243,6 +301,13 @@
     },
     "/drugindication": {
       "get": {
+        "tags": [
+          "signature",
+          "query",
+          "LINCS",
+          "SchuererLab",
+          "small molecule"
+        ],
         "summary": "Get known drug indications for LINCS small molecules, the indications are captured from both the Experimental Factor Ontology (EFO) and the Medical Subject Headings (MeSH) vocabularies. ",
         "parameters": [
           {
@@ -300,6 +365,13 @@
     },
     "/disease": {
       "get": {
+        "tags": [
+          "diseases",
+          "query",
+          "LINCS",
+          "SchuererLab",
+          "cells"
+        ],
         "summary": "Query for LINCS cell line identifiers by disease, the diseases are captured from the Disease Ontology (DO) vocabulary. ",
         "parameters": [
           {
