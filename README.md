@@ -4,5 +4,7 @@ smartAPI is an OpenAPI Specification is to define a standard, language-agnostic 
 https://smart-api.info
 Tag:  "SchuererLab"
 
-# SmartAPI swagger documents for the tools developed in the Schuerer Lab.
-Tool name:  LINCS Data Portal:  http://lincsportal.ccs.miami.edu
+# API for the tools developed in the Schuerer Lab:
+Tool name:  LINCS Data Portal
+URL:  http://lincsportal.ccs.miami.edu
+API: http://lincsportal.ccs.miami.edu/apis/
