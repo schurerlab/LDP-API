@@ -10,7 +10,7 @@ info:
     name: UM BD2K-LINCS DCIC
     x-role: responsible organization
     email: akoleti@med.miami.edu
-    x-id: 'http://lincsportal.ccs.miami.edu//'
+    x-id: 'http://lincsportal.ccs.miami.edu/'
 servers:
   - url: 'http://lincsportal.ccs.miami.edu/dcic/api/'
     description: Production server
