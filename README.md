@@ -1,2 +1,7 @@
-# LDP-API
-LINCS Data Portal API
+# smartAPI
+
+smartAPI is an OpenAPI Specification is to define a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. 
+
+https://smart-api.info
+
+Tag:  "SchuererLab"
